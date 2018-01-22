@@ -1,0 +1,66 @@
+
+/* header */
+
+.roadtodamascus {
+	background: #ccc;
+}
+
+.roadtodamascus h1 {
+    color: #000;
+    margin-top: 0;
+    padding: 17px 9px;
+    font-size: 1em;
+    text-align: center;
+}
+
+nav.menu img { position: fixed; top: 9px; right: 8px; max-width: 30px; }
+
+
+ 
+/* split nav */
+
+.stpaul {
+	background: #ccc;
+    color: #000;
+    margin-top: 0;
+    padding: 17px 0px;
+    font-size: 1em;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.stpaul a { color: black!important; }
+
+/* Menu items */
+
+.options {
+    width: 100%; /* Set a width if you like */
+		padding: 0;
+}
+
+.options li { list-style-type: none; }
+
+.options a {
+    background-color: #eee; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.options a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.options a.active {
+    background-color: #4CAF50; /* Add a green color to the "active/current" link */
+    color: white;
+}
+
+/*
+=======================================
+Add Custom css
+=======================================
+*/
